@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body {
+    
+    /*START BG SETTINGS*/
+    
+        background-image: url("https://aww.moe/jsnizs.png");
+        background-position:center center;
+        background-attachment: fixed;
+        background-repeat:no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    
+    /*END BG SETTINGS*/
+        
+        font-family: 'Roboto Slab', serif;
+    
+            }
+
+#whitesmokebody {
+    
+        width: inherit;
+        height: inherit;
+        border: 25px solid whitesmoke;
+        padding: 25px;
+        margin: 25px;
+        background-color: whitesmoke;
+    
+                }
+
+ h1 {
+        
+        font-weight: 100;
+        
+                } 
+
+table {
+        
+        border-collapse: collapse;
+        width: 50%;
+    }
+    
+th {
+    
+    height: 25px;
+    font-weight: 100;
+
+                }
+    
+tr {
+        
+        text-align: center;
+        
+    }
+    
+    table, th, td {
+                    border: 1px solid black;
+                    
+    }
+        
+        .text {
+            
+            margin-top: 25px;
+            margin-bottom: 25px;
+            line-height: 30px;
+    }
+    
+    img {
+    height: auto; 
+    width: auto; 
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+         a:link {
+    text-decoration: none;
+    color: black;
+}
+
+    a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+    a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+    a:active {
+    text-decoration: none;
+    color: black;
+}
