@@ -22,11 +22,9 @@ body {
             }
 
 #whitesmokebody {
-    
-        width: inherit;
-        height: inherit;
+
         border: 25px solid whitesmoke;
-        padding: 25px;
+        padding: 10px 25px 10px 25px;
         margin: 25px;
         background-color: whitesmoke;
     
@@ -35,6 +33,7 @@ body {
  h1 {
         
         font-weight: 100;
+        line-height: 0.001;
         
                 }
     
@@ -44,19 +43,31 @@ ul {
         -webkit-columns: 2;
         -moz-columns: 2;
         list-style-type: none;
-        margin: 0; 
+        margin: 0 !important; 
         padding: 0;
+
         
                 }
 
-    li a {
-        
-        display: block;
-        background-color: darkgray;
-        padding: 15px 8px;
-        margin: 20px 0;
-        
-    }
+li {
+        overflow: hidden;
+        max-height: inherit;
+
+
+}
+
+li a {    
+    display: block;
+    background-color: darkgray;
+    padding: 15px 8px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 0px !important;
+    white-space: nowrap;
+
+    
+}
     
     li a:hover {
         
